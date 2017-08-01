@@ -1,3 +1,5 @@
+# Ex16: Reading and Writing Files
+
 from sys import argv
 
 script, filename = argv
