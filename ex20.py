@@ -9,7 +9,7 @@ script, input_file = argv
 def print_all(f):
   print f.read()
 
-# a function called, rewind is defined, takes a file, f, and prints calls .seek(0) on the file. Looks like it's seeking line 0 in the file.
+# a function called, rewind is defined, takes a file, f, and prints calls .seek(0) on the file. Looks like it's seeking byte 0 in the file.
 def rewind(f):
   f.seek(0)
 
